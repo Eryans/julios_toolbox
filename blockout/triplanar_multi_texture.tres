@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ke2h255hvsvr"]
+
+[ext_resource type="Shader" uid="uid://qph64njct315" path="res://Julios Toolbox/blockout/triplanar_multi_texture.gdshader" id="1_5qygj"]
+[ext_resource type="Texture2D" uid="uid://cponu825yft61" path="res://Julios Toolbox/blockout/Name_1m x 1m(2).png" id="2_an8lq"]
+[ext_resource type="Texture2D" uid="uid://daxchgbto6ais" path="res://Julios Toolbox/blockout/Name_1m x 1m(4).png" id="3_bjofb"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_5qygj")
+shader_parameter/enable_normal_map = false
+shader_parameter/enable_roughness = false
+shader_parameter/roughness = 1.0
+shader_parameter/x_albedo = ExtResource("2_an8lq")
+shader_parameter/x_scale = 1.0
+shader_parameter/y_albedo = ExtResource("3_bjofb")
+shader_parameter/y_scale = 1.0
+shader_parameter/z_albedo = ExtResource("2_an8lq")
+shader_parameter/z_scale = 1.0

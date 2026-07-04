@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dcdne3h1iqwl5"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_aqm4k"]
+radius = 0.1
+height = 0.2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bfah0"]
+shading_mode = 0
+albedo_color = Color(0.79607844, 0, 0, 1)
+
+[node name="DebugBall" type="MeshInstance3D" unique_id=1724834714 groups=["debug"]]
+mesh = SubResource("SphereMesh_aqm4k")
+surface_material_override/0 = SubResource("StandardMaterial3D_bfah0")

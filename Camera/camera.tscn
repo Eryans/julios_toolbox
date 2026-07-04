@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dbdj80vtkpefp"]
+
+[ext_resource type="Script" uid="uid://c52jfc66jubh1" path="res://Julios Toolbox/Camera/camera.gd" id="1_wmbm5"]
+
+[node name="Camera" type="SpringArm3D" unique_id=135789904]
+collision_mask = 0
+script = ExtResource("1_wmbm5")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=374561188]
+current = true
+
+[node name="TargetRayCast3D" type="RayCast3D" parent="." unique_id=541885276]
