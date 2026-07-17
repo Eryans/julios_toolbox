@@ -26,9 +26,6 @@ class_name CameraControl
 
 var fov_tween: Tween
 
-func _init() -> void:
-	GlobalData.camera_control = self
-
 func _ready() -> void:
 	camera.h_offset = base_h_offset
 	camera.v_offset = base_v_offset

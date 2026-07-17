@@ -24,7 +24,7 @@ func _input(event: InputEvent) -> void:
 	if current_state:
 		current_state.input(event)
 
-func change_state(new_state_name: Variant) -> void:
+func change_state(new_state_name: Variant, additionnal_data: Variant = null) -> void:
 	var state_name: String = str(new_state_name).to_lower()
 	if current_state:
 		current_state.exit()
@@ -39,8 +39,7 @@ func change_state(new_state_name: Variant) -> void:
 			state.process_mode = Node.PROCESS_MODE_DISABLED
 	if !state_found:
 		printerr("STATE NOT FOUND : ", state_name)
-		
-	current_state.enter()
+	current_state.enter(additionnal_data)
 
 func is_in_state(state: String) -> bool:
 	return current_state.name.to_lower() == state.to_lower()

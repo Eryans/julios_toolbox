@@ -6,8 +6,6 @@ var metallic_mat: StandardMaterial3D = load("uid://cto3lacvd2tyc")
 var blockout_mat: ShaderMaterial = load("uid://ke2h255hvsvr")
 
 var scene_dictionnary: Dictionary[String, PackedScene] = {
-	"player" = load("uid://dfebn8reooexy"),
-	"crate" = load("uid://ch1frl4htoix0")
 }
 
 var root: Node

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cponu825yft61"
-path.s3tc="res://.godot/imported/Name_1m x 1m(2).png-eacc26dc22291c36ce6402a335192f36.s3tc.ctex"
+path.s3tc="res://.godot/imported/Name_1m x 1m(2).png-84e8da311762bdd8d559b4965c31142e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Julios Toolbox/blockout/Name_1m x 1m(2).png"
-dest_files=["res://.godot/imported/Name_1m x 1m(2).png-eacc26dc22291c36ce6402a335192f36.s3tc.ctex"]
+source_file="res://julios_toolbox/blockout/Name_1m x 1m(2).png"
+dest_files=["res://.godot/imported/Name_1m x 1m(2).png-84e8da311762bdd8d559b4965c31142e.s3tc.ctex"]
 
 [params]
 
