@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dbdj80vtkpefp"]
 
-[ext_resource type="Script" uid="uid://c52jfc66jubh1" path="res://Julios Toolbox/Camera/camera.gd" id="1_wmbm5"]
+[ext_resource type="Script" path="res://Julios Toolbox/Camera/camera.gd" id="1_wmbm5"]
 
 [node name="Camera" type="SpringArm3D" unique_id=135789904]
 collision_mask = 0
