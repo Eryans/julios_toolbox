@@ -1,8 +1,8 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://ke2h255hvsvr"]
 
-[ext_resource type="Shader" uid="uid://qph64njct315" path="res://Julios Toolbox/blockout/triplanar_multi_texture.gdshader" id="1_5qygj"]
-[ext_resource type="Texture2D" uid="uid://cponu825yft61" path="res://Julios Toolbox/blockout/Name_1m x 1m(2).png" id="2_an8lq"]
-[ext_resource type="Texture2D" uid="uid://daxchgbto6ais" path="res://Julios Toolbox/blockout/Name_1m x 1m(4).png" id="3_bjofb"]
+[ext_resource type="Shader" uid="uid://qph64njct315" path="res://julios_toolbox/blockout/triplanar_multi_texture.gdshader" id="1_5qygj"]
+[ext_resource type="Texture2D" uid="uid://besufsks4486m" path="res://assets/textures/forest_wall.png" id="2_v54t3"]
+[ext_resource type="Texture2D" uid="uid://dglauq85i8lkw" path="res://assets/textures/floor_forest.png" id="3_d8opq"]
 
 [resource]
 render_priority = 0
@@ -10,9 +10,9 @@ shader = ExtResource("1_5qygj")
 shader_parameter/enable_normal_map = false
 shader_parameter/enable_roughness = false
 shader_parameter/roughness = 1.0
-shader_parameter/x_albedo = ExtResource("2_an8lq")
-shader_parameter/x_scale = 1.0
-shader_parameter/y_albedo = ExtResource("3_bjofb")
-shader_parameter/y_scale = 1.0
-shader_parameter/z_albedo = ExtResource("2_an8lq")
-shader_parameter/z_scale = 1.0
+shader_parameter/x_albedo = ExtResource("2_v54t3")
+shader_parameter/x_scale = 0.277
+shader_parameter/y_albedo = ExtResource("3_d8opq")
+shader_parameter/y_scale = 0.25
+shader_parameter/z_albedo = ExtResource("2_v54t3")
+shader_parameter/z_scale = 0.25

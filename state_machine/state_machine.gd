@@ -46,3 +46,9 @@ func is_in_state(state: String) -> bool:
 
 func not_in_state(state: String) -> bool:
 	return !is_in_state(state)
+
+func is_in_one_of_states(states_to_check: Array[String]) -> bool:
+	for state in states_to_check:
+		if current_state.name.to_lower() == state.to_lower():
+			return true
+	return false
