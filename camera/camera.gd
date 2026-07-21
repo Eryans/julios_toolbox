@@ -52,7 +52,7 @@ func lerp_to_target(delta: float) -> void:
 # 		rotate_object_local(Vector3.UP, (_camera_input_dir.x))
 # 		rotate_object_local(Vector3.RIGHT, (_camera_input_dir.y))
 
-func shoot_ray() -> Dictionary:
+func shoot_ray(col_mask: int = 8) -> Dictionary:
 	var mouse_pos: Vector2 = get_viewport().get_mouse_position()
 	var ray_length: float = 1000
 	var from: Vector3 = camera.project_ray_origin(mouse_pos)
@@ -61,7 +61,7 @@ func shoot_ray() -> Dictionary:
 	var ray_query = PhysicsRayQueryParameters3D.new()
 	ray_query.from = from
 	ray_query.to = to
-	ray_query.collision_mask = 8
+	ray_query.collision_mask = col_mask
 	return space.intersect_ray(ray_query)
 
 func get_mouse_position_in_3D() -> Vector3:

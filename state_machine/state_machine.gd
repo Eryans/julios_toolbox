@@ -44,9 +44,6 @@ func change_state(new_state_name: Variant, additionnal_data: Variant = null) -> 
 func is_in_state(state: String) -> bool:
 	return current_state.name.to_lower() == state.to_lower()
 
-func not_in_state(state: String) -> bool:
-	return !is_in_state(state)
-
 func is_in_one_of_states(states_to_check: Array[String]) -> bool:
 	for state in states_to_check:
 		if current_state.name.to_lower() == state.to_lower():

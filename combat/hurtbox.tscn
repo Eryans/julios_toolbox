@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://2w2qr8pfiac7"]
+
+[ext_resource type="Script" uid="uid://k5ekj1if4w6j" path="res://julios_toolbox/combat/hurtbox.gd" id="1_80hxh"]
+[ext_resource type="Texture2D" uid="uid://yibkhms8ihgq" path="res://assets/textures/impact.png" id="2_0bqne"]
+
+[node name="Hurtbox" type="Area3D" unique_id=1269688512]
+script = ExtResource("1_80hxh")
+has_invicibility_after_hit = true
+metadata/_custom_type_script = "uid://k5ekj1if4w6j"
+
+[node name="Impact" type="Sprite3D" parent="." unique_id=1955848343]
+visible = false
+billboard = 1
+no_depth_test = true
+texture = ExtResource("2_0bqne")
